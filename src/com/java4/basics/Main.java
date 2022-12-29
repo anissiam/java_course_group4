@@ -6,7 +6,50 @@ public class Main {
     static double i;
 
     public static void main(String[] args) {
-        int y = 50;//Local  Variables
+
+        int x = 10;
+        int y = 50;
+        int w = 30;
+        System.out.println(x+y+ w);  //
+
+        int z = x + y + w;
+        System.out.println(z);
+
+        int ava = z / 3;
+        System.out.println(ava);
+
+        System.out.println(ava - 10);
+
+        int ava1 = (x + y + w) / 3;
+        System.out.println(ava1);
+
+
+        double dd = 10.3212341;
+        double vv = 10;
+        int cc = 200;
+        vv = cc;
+        System.out.println( "CC "+ cc);
+        System.out.println(dd + vv);
+
+
+        int zz =(int) dd;
+        System.out.println(zz);
+        float bbb = 100.0f;
+        double qqq = (double) bbb;
+
+        long rrr = 100L;
+
+        int ooo = (int) rrr;
+
+        System.out.println(10%2);
+
+        System.out.println(z + 10);
+        //z = z + 10;
+        z += 10;
+        System.out.println(z);
+
+
+       /* int y = 50;//Local  Variables
         // System.out.println(y);
 
         y = 20;
@@ -36,7 +79,7 @@ public class Main {
         System.out.println((byte)ch0);
         System.out.println((char) 65);
         System.out.print("My name is Anis my age ");
-        System.out.println(29);
+        System.out.println(29);*/
 
     }
 }
