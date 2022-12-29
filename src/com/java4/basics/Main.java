@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         int y = 50;//Local  Variables
-       // System.out.println(y);
+        // System.out.println(y);
 
         y = 20;
         System.out.println(y);
@@ -17,12 +17,26 @@ public class Main {
 
         byte z = -128;
 
+        double ww = 5.5; // Var
+        System.out.println("Value is [" + ww+"]");
+        System.out.println("ww = [" + ww+"]");
+        float ff =(float) 50.5;
+        float ff1 = 50.5F;
+        System.out.println(ff);
+        //long ll = 10L;
+
+
+        boolean bool = true;
+        System.out.println(bool);
+
+        char ch0 = 'A';
+        char ch1 = 'N';
+        char ch2 = 'I';
+        char ch3 = 'S';
+        System.out.println((byte)ch0);
+        System.out.println((char) 65);
         System.out.print("My name is Anis my age ");
         System.out.println(29);
 
     }
-
-
-
-
 }
