@@ -7,7 +7,50 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int x = 10;
+        int result = 1 + 2; // result is now 3
+        System.out.println(result);
+
+        result = result - 1; // result is now 2  ///
+        System.out.println(result);
+
+        result = result * 2; // result is now 4
+        System.out.println(result);
+
+        result = result / 2; // result is now 2
+        System.out.println(result);
+
+        result = result + 8; // result is now 10
+        result = result % 7; // result is now 3
+        System.out.println(result);
+
+        byte fristNo = 10;
+        int myNum = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        System.out.println(myNum + " " + myFloatNum + " " + myLetter + " " + myBool);
+
+        int x = 5;
+        int y = 6;
+
+        int z = x * y++;
+        //    = 5 *( 1.get y 2. y=y+1)
+        //    = 5 * 6
+        // output Z = 30
+        //Ram x = 5  , y = 6 - 7
+        System.out.println(z);
+
+        z = ++x * ++y;
+        // (1.x =x+1 2.get x ) * (1.y=y+1 2.get y )
+        //  6 * 8 = 48
+        //Ram x = 5-6  , y = 6 - 7 - 8
+
+        System.out.println(z);
+
+
+
+
+       /* int x = 10;
         int y = 50;
         int w = 30;
         System.out.println(x+y+ w);  //
@@ -47,7 +90,7 @@ public class Main {
         //z = z + 10;
         z += 10;
         System.out.println(z);
-
+*/
 
        /* int y = 50;//Local  Variables
         // System.out.println(y);
