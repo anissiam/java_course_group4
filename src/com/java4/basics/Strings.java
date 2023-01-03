@@ -7,7 +7,7 @@ public class Strings {
         String name2= "Anis";
         String name4= "ANIS";
         String name3 = new String("Anis");
-        String str = "Hello from java";
+        String str = "Hello from java , Hello from java ,Hello from java ,Hello from java ,Hello from java ,Hello from java ,Hello from java ,Hello from java";
 
         //System.out.println(name +" "+ name1); // دمج
         System.out.println(name + name1);
@@ -30,6 +30,28 @@ public class Strings {
         System.out.println(name.equalsIgnoreCase(name4));
         System.out.println(str.substring(2)); // يأخد مقطع
         System.out.println(str.substring(2,7)); // يأخد مقطع من --- الى
+        System.out.println(str.charAt(0)); // ارجاع حرف حسب ال index
+        System.out.println(str.charAt(1));
+        System.out.println(str.charAt(2));
+        //System.out.println(str.charAt(50));
+        System.out.println(str.replace("java","C++")); // استبدال كلمة بكلمة
+        String sss = "java";
+        System.out.println(str.contains(sss)); // بحث
+        System.out.println(str.trim());// ازالة المسافات من البداية والنهاية
+
+        System.out.println(str.startsWith("A"));
+        System.out.println(str.startsWith("Hello"));
+        System.out.println(str.endsWith("java"));
+        //System.out.println(str.startsWith("A"));
+        //System.out.println(str.trim());
+
+        System.out.println("Hello from \"Java\" {HHH}");
+        System.out.println("Hello from \'Java\'");
+        System.out.println("Hello from \\Java\\");
+        System.out.println("Hello from \njava"); // سطر جديد
+        System.out.println("Hello from \rjava");//حدف ما قبلها
+        System.out.println("Hello from \tjava");// مسافة تاب
+        System.out.println("Hello from \bjava");// حدف حرف
 
 
 
