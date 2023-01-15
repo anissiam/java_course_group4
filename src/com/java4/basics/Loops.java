@@ -5,9 +5,81 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
 
+//        ***
+//        ***
+//        ***
+
+
+        for(int i = 1 ; i <= 4 ; i++){
+            System.out.println("Week " + i);
+            for(int j = 1 ; j<=7; j++){
+                System.out.print("Day" + j+ " ");
+            }
+            System.out.println();
+        }
+
+
+
+       /* for (int i = 0 ; i <=50 ; i++){ // Rows
+            //System.out.println("i " + i);
+            for(int j = 0 ; j<=i ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+       /* for (int i = 0 ; i <=2 ; i++){ // Rows
+            //System.out.println("i " + i);
+            for(int j = 0 ; j<=2 ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+
+        /**
+         * Homework
+         */
+       /* Scanner scanner = new Scanner(System.in);
+        System.out.println("Plz enter num");
+        int x = scanner.nextInt();
+        for(;;){
+            if(x ==0){
+                System.out.println("Stop");
+                continue;
+            }
+            if (x%2==0){
+                System.out.println("Even");
+            }else {
+                System.out.println("Odd");
+            }
+            System.out.println("Plz enter new num");
+            x = scanner.nextInt();
+        }*/
+
+
+
+        /*for(int i = 1 ; i<=100 ; i++){
+            if(i!=100){
+                System.out.print("1/" + i + "+ ");
+            }else {
+                System.out.print("1/" + i );
+            }
+        }*/
+       /* TODO Check the code on 50
         Scanner scanner = new Scanner(System.in);
-        /*System.out.println("Plz enter num");
-        int num = scanner.nextInt();*/
+        System.out.println("Plz enter num");
+        int x = scanner.nextInt();
+        int fact = 1;
+        for(int i = 1 ; i<=x ; i++){
+            System.out.println(i);
+            fact *= i;
+        }
+        System.out.println(fact);*/
+
+        /*Scanner scanner = new Scanner(System.in);
+        *//*System.out.println("Plz enter num");
+        int num = scanner.nextInt();*//*
         int num;
         int max = 0;
         int min = 0;
@@ -28,7 +100,7 @@ public class Loops {
             }
         }
         System.out.println("Max is " + max);
-        System.out.println("Min is " + min);
+        System.out.println("Min is " + min);*/
 
         /*int sum = 0;
         for(int i = 0;i<5;i++){
