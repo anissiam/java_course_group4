@@ -5,7 +5,31 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
-        int[][] bahaa = new int[3][4];
+        /*String[] names = {"Ali", "sami", "bahaa", "alaa", "mohammed" , "Ali"};
+        String name ="";
+        for (int i = 0; i<names.length; i++){
+           if(name.equalsIgnoreCase(names[i])){
+               System.out.println(name + " is found");
+           }
+            name = names[i];
+        }*/
+
+       /* int[] nums = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        int fact = 1 ;
+        int sum = 0;
+        int i = 0;
+        for (; i < nums.length; i++){
+            System.out.println("Plz enter value");
+            nums[i] = scanner.nextInt();
+            fact *= nums[i];
+            sum += nums[i];
+
+        }
+        System.out.println("Ava " + sum / i);
+        System.out.println("fact " + fact);
+*/
+       /* int[][] bahaa = new int[3][4];
         int[][] x = {{3, 4, 9}, {8, 9, 7 , 5 }, {9, 5, 4}};
 
         for (int i = 0 ; i<x.length;i++){
@@ -15,7 +39,7 @@ public class Arrays {
             }
             System.out.println();
         }
-
+*/
 
        /* System.out.println(bahaa.length);
         System.out.println(bahaa[0].length);
