@@ -5,11 +5,32 @@ import java.util.Scanner;
 public class Main {
     int x;
     public static void main(String[] args) {
-        Animal animal = new Animal();
+        SuperHero supermanObject = new SuperHero(656 , "Fly"  , "Clark Kent");
+        supermanObject.printData();
+        supermanObject.setAge(300);
+        System.out.println(supermanObject.getAge());
+
+       /* Car car = new Car();
+        System.out.println(car.getSpeed());
+        car.setSpeed(1);
+        System.out.println(car.getSpeed());
+
+        car.setColor("Red");
+        System.out.println(car.getColor());
+
+        car.convertSpeed();*/
+
+        /*Shape shape = new Shape();
+        shape.l = 10;
+        shape.w = 50;
+        shape.area();
+        Shape shape1 = new Shape(10,50,"Sq");
+        shape1.area();*/
+       /* Animal animal = new Animal();
         animal.sound();
 
         Animal animal1 = new Animal("Locy" , "Cat" );
-        animal1.sound();
+        animal1.sound();*/
 
 
 
