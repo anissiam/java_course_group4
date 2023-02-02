@@ -1,14 +1,34 @@
 package com.java4.oop.basics;
 
+import com.java4.oop.Inheritance.Lenovo;
+import com.java4.oop.Inheritance.MSI;
+import com.java4.oop.Inheritance.Yoga;
+
 import java.util.Scanner;
 
 public class Main {
     int x;
     public static void main(String[] args) {
-        SuperHero supermanObject = new SuperHero(656 , "Fly"  , "Clark Kent");
+        /*SuperHero supermanObject = new SuperHero(656 , "Fly"  , "Clark Kent");
         supermanObject.printData();
         supermanObject.setAge(300);
-        System.out.println(supermanObject.getAge());
+        System.out.println(supermanObject.getAge());*/
+
+
+        Computer msi = new Computer(8, "MSI", 7, "2022");
+        msi.printData();
+        msi.setRam(10);
+        System.out.println(msi.getRam());
+
+        MSI msi1 = new MSI(8, "MSI", 7, "2022", true);
+        msi1.showDats();
+
+        Lenovo lenovo = new Lenovo(8, "Lenovo", 5, "2019" ,"Yoga");
+        lenovo.setModel("Yoga");
+        lenovo.showDats();
+
+        Yoga yoga = new Yoga(9, "Lenovo", 3, "2020" , "asdcs" , "sdas");
+        yoga.showData();
 
        /* Car car = new Car();
         System.out.println(car.getSpeed());
