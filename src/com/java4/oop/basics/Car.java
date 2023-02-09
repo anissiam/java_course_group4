@@ -1,6 +1,8 @@
 package com.java4.oop.basics;
 
 public class Car {
+    static String name = "BMW";
+
     private int speed;
     private String model;
     private String color;
@@ -43,4 +45,12 @@ public class Car {
         System.out.println(value + " Mile");
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "speed=" + speed +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

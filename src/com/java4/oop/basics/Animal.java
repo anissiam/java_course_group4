@@ -1,6 +1,7 @@
 package com.java4.oop.basics;
 
 public class Animal {
+
     String name;
     String type;
 

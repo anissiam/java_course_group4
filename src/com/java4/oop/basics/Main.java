@@ -8,14 +8,58 @@ import java.util.Scanner;
 
 public class Main {
     int x;
+
     public static void main(String[] args) {
+
+        /*System.out.println(Car.name);
+        Car.name = "Ford";
+        System.out.println(Car.name);*/
+
+        Car[] cars = new Car[2];
+        /*cars[0] = new Car(100, "BMW", "RED");
+        cars[1] = new Car();*/
+        Scanner scanner = new Scanner(System.in);
+
+        for (int i = 0; i < cars.length; i++) {
+            Car car= new Car();
+
+            System.out.println("Plz enter Speed");
+            int speed = scanner.nextInt();
+            car.setSpeed(speed);
+            System.out.println("Plz enter MOdel");
+            String model = scanner.next();
+            car.setModel(model);
+            System.out.println("Plz enter Color");
+            String color = scanner.next();
+            car.setColor(color);
+
+            cars[i] = car;
+            System.out.println("======================================");
+        }
+        /*for(int i = 0 ;i<cars.length; i++){
+            System.out.println("Plz enter Speed");
+            int speed = scanner.nextInt();
+            System.out.println("Plz enter MOdel");
+            String model = scanner.next();
+            System.out.println("Plz enter Color");
+            String color = scanner.next();
+
+            cars[i] = new Car(speed, model, color);
+
+            System.out.println("======================================");
+        }*/
+        for (Car car : cars) {
+            System.out.println(car.toString());
+        }
+
+
         /*SuperHero supermanObject = new SuperHero(656 , "Fly"  , "Clark Kent");
         supermanObject.printData();
         supermanObject.setAge(300);
         System.out.println(supermanObject.getAge());*/
 
 
-        Computer msi = new Computer(8, "MSI", 7, "2022");
+      /*  Computer msi = new Computer(8, "MSI", 7, "2022");
         msi.printData();
         msi.setRam(10);
         System.out.println(msi.getRam());
@@ -28,7 +72,7 @@ public class Main {
         lenovo.showDats();
 
         Yoga yoga = new Yoga(9, "Lenovo", 3, "2020" , "asdcs" , "sdas");
-        yoga.showData();
+        yoga.showData();*/
 
        /* Car car = new Car();
         System.out.println(car.getSpeed());
@@ -53,8 +97,7 @@ public class Main {
         animal1.sound();*/
 
 
-
-       // PersonA p1 = new PersonA();
+        // PersonA p1 = new PersonA();
 
         /*Scanner scanner = new Scanner(System.in);
         System.out.println("Plz enter age ");
